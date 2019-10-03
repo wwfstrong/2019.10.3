@@ -1,0 +1,416 @@
+/* #fp-nav ul li a span {
+  background: #f40 !important;
+} */
+html,
+body,
+.section {
+  min-width: 1000px;
+  min-height: 600px;
+}
+.next{
+  position: absolute;
+  bottom: 120px;
+  right: 10%;
+  z-index: 20;
+  animation: next-down 2s linear infinite;
+}
+.section1 {
+  background: #fadd67 url(../images/bg1.png) no-repeat center bottom;
+}
+.fly {
+  position: absolute;
+  right: 20%;
+  top: 10%;
+}
+.shirt01 {
+  position: absolute;
+  left: 50%;
+  margin-left: -200px;
+  bottom: 335px;
+}
+.goods {
+  position: absolute;
+  left: 50%;
+  margin-left: -410px;
+  bottom: 146px;
+}
+.section2 {
+  background: #84a2d4 url(../images/bg2.png) no-repeat center bottom;
+  z-index: 10;
+}
+.computer {
+  width: 900px;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+}
+.search {
+  width: 222px;
+  height: 45px;
+  background: url(../images/search.png) no-repeat;
+  right: -76px;
+  bottom: 300px;
+  position: absolute;
+  display: none;
+}
+.search-words {
+  position: absolute;
+  right: 30px;
+  top: 2px;
+  opacity: 0;
+}
+.search-02-1 {
+  position: absolute;
+  bottom: 300px;
+  right: 350px;
+  display: none;
+}
+.goods-02 {
+  height: 100px;
+  position: absolute;
+  bottom: 210px;
+  right: 230px;
+  display: none;
+}
+.words-01,
+.words-02 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 550px;
+}
+.words-02 {
+  opacity: 0;
+}
+.shirt-02 {
+  position: absolute;
+  bottom: 341px;
+  left: 343px;
+  width: 100px;
+  display: none;
+  z-index: 2;
+}
+.cover {
+  width: 102px;
+  height: 100px;
+  background-color: white;
+  position: absolute;
+  top: 76px;
+  left: 344px;
+  display: none;
+}
+.section3 {
+  background: #ef674d;
+  z-index: 9;
+}
+.main {
+  position: absolute;
+  width: 700px;
+  height: 500px;
+  background: url(../images/main.png) no-repeat center center;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 200px;
+}
+.select {
+  width: 300px;
+  height: 250px;
+  position: absolute;
+  bottom: 0;
+  right: 8px;
+}
+.img {
+  position: absolute;
+  top: 0;
+}
+.btn {
+  position: absolute;
+  bottom: 0;
+}
+.img-01-a,
+.btn-01-a {
+  opacity: 0;
+}
+.shirt-03,
+.t1f {
+  position: absolute;
+  left: 115px;
+  bottom: 200px;
+  display: none;
+}
+.section4 {
+  background: #fed url(../images/bg4.png) no-repeat center bottom;
+}
+.cloud {
+  position: absolute;
+  left: 50%;
+  bottom: 800px;
+}
+.word {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 700px;
+}
+.words-04 {
+  opacity: 0;
+}
+.car {
+  width: 500px;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+.car-img {
+  position: absolute;
+  bottom: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+  display: none;
+}
+.note {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: pink;
+  bottom: 350px;
+  display: none;
+}
+.text {
+  position: absolute;
+  top: 60px;
+  left: 60px;
+  opacity: 0;
+}
+.section5 {
+  background: #d04759 url(../images/bg5.png);
+  /* overflow: hidden; */
+  perspective: 500px;
+  z-index: 7;
+}
+.words-05 {
+  position: absolute;
+  left: 25%;
+  top: 15%;
+  opacity: 0;
+}
+.card-05 {
+  position: absolute;
+  left: 25%;
+  bottom: 300px;
+  z-index: 10;
+}
+.order-05 {
+  position: absolute;
+  left: 35%;
+  bottom: 350px;
+}
+.t1f-05 {
+  position: absolute;
+  bottom: 920px;
+  left: 30%;
+  display: none;
+}
+.mouse {
+  position: absolute;
+  right: 25%;
+  bottom: 300px;
+}
+.mouse-a {
+  position: absolute;
+  right: 25%;
+  bottom: 300px;
+  opacity: 0;
+}
+.hand-05 {
+  position: absolute;
+  right: 27%;
+  bottom: -500px;
+  height: 460px;
+}
+.overFlow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.section6 {
+  background: #84d9ed url(../images/bg6.png) no-repeat 25% 100%;
+}
+.cloud-06 {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  animation: cloud6 60s linear infinite;
+}
+.box-06 {
+  position: absolute;
+  left: 123px;
+  bottom: 600px;
+  z-index: 8;
+}
+.car-06 {
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  z-index: 8;
+}
+.pop-06 {
+  position: absolute;
+  bottom: 119px;
+  right: 49%;
+  display: none;
+}
+.man {
+  position: absolute;
+  right: 53%;
+  bottom: 10px;
+  height: 100px;
+}
+.women {
+  position: absolute;
+  right: 315px;
+  bottom: 116px;
+  height: 123px;
+  display: none;
+  z-index: 1;
+}
+.door {
+  position: absolute;
+  right: 285px;
+  bottom: 116px;
+  opacity: 0;
+}
+.plese {
+  position: absolute;
+  right: 445px;
+  bottom: 400px;
+  z-index: 2;
+  display: none;
+}
+.words-06-a {
+  position: absolute;
+  left: 10%;
+  bottom: 479px;
+  display: none;
+}
+.section7 {
+  background: #8ac060 url(../images/bg7.png) no-repeat 50% 100%;
+}
+.star {
+  position: absolute;
+  left: 50%;
+  bottom: 439px;
+  margin-left: -295px;
+  width: 0;
+  height: 20px;
+  background: url(../images/star.png) no-repeat;
+  background-size: 97px;
+}
+.good-07 {
+  position: absolute;
+  bottom: 382px;
+  left: 50%;
+  margin-left: -289px;
+  display: none;
+}
+.section8 {
+  background: url(../images/bg8.png);
+}
+.shoping {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 565px;
+}
+.btn-08-a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.again {
+  position: absolute;
+  bottom: 603px;
+  left: 50%;
+  margin-left: 250px;
+  cursor: pointer;
+}
+.hand-08 {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  height: 650px;
+  width: 200px;
+}
+.go {
+  position: fixed;
+  top: 5%;
+  right: 5%;
+  z-index: 1;
+}
+.updown {
+  animation: fly 2.5s linear infinite;
+}
+.shirt-updown {
+  animation: shirt01 3s linear infinite;
+}
+.cloud-back1 {
+  animation: cloud 60s linear infinite;
+}
+.words-05-a {
+  animation: words5 1s forwards;
+}
+@keyframes fly {
+  50% {
+    top: 20%;
+  }
+  100% {
+    top: 10%;
+  }
+}
+@keyframes shirt01 {
+  50% {
+    bottom: 360px;
+  }
+  100% {
+    bottom: 335px;
+  }
+}
+@keyframes cloud {
+  50% {
+    left: -10%;
+  }
+  100% {
+    left: 50%;
+  }
+}
+@keyframes words5 {
+  100% {
+    opacity: 1;
+    transform: translateZ(100px) rotateY(360deg);
+  }
+}
+@keyframes cloud6 {
+  50% {
+    left: 0;
+  }
+  100% {
+    left: 50%;
+  }
+}
+@keyframes next-down{
+  50%{
+    bottom: 140px;
+  }
+  100%{
+    bottom: 120px;
+  }
+}
